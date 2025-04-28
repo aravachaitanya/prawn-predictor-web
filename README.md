@@ -9,7 +9,7 @@ A lightweight React + Vite project to predict prawn outcomes (or any prediction 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/aravachaitanya/prawn-predictor-web.git
 cd your-repo
 ```
 
