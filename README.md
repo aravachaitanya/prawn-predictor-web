@@ -1,69 +1,73 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🦐 Prawn Predictor
 
-**URL**: https://lovable.dev/projects/bfb3e596-c496-4fc0-80fb-14fb8c67b482
+A lightweight React + Vite project to predict prawn outcomes (or any prediction task you customize).
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Getting Started
 
-**Use Lovable**
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bfb3e596-c496-4fc0-80fb-14fb8c67b482) and start prompting.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be running at [http://localhost:8080](http://localhost:8080).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```plaintext
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Main pages
+│   ├── services/       # API calls or service layers
+│   └── App.tsx         # Main App entry
+├── public/             # Static assets
+├── vite.config.ts      # Vite configuration
+├── tailwind.config.ts  # Tailwind CSS config (if used)
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project instructions
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with .
+## 🛠 Tech Stack
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **React** (with SWC plugin)
+- **Vite** (Fast frontend tooling)
+- **TypeScript**
+- **Tailwind CSS** (optional styling)
+- **Bun** or **npm** (package management)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/bfb3e596-c496-4fc0-80fb-14fb8c67b482) and click on Share -> Publish.
+## 🧠 Future Improvements
+- Add model integration (real prediction engine)
+- Improve UI/UX with advanced components
+- API integration for dynamic data
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 🤝 Contributing
+
+Pull requests are welcome.  
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
